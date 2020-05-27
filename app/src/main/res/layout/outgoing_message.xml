@@ -36,7 +36,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/outgoing" />
+        app:srcCompat="@drawable/incoming" />
 
     <TextView
         android:id="@+id/messageText"
