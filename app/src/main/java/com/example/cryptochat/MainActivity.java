@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        controller.addMessage(new MessageController.Message(p.second, p.first, false)
+                        controller.addMessage(new MessageController.Message(p.second, p.first, true)
                         );
                     }
                 });
